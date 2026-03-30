@@ -1,0 +1,102 @@
+{
+  "yard work": {
+    "label": "Yard Work",
+    "description": "Outdoor physical work: mowing, trimming, planting, weeding",
+    "bpm_range": [70, 115],
+    "energy_range": [2, 5],
+    "preferred_genres": ["indie folk", "acoustic", "reggae", "country", "classic rock", "americana", "folk rock"],
+    "preferred_moods": ["laid-back", "groovy", "warm", "outdoorsy", "happy"],
+    "excluded_moods": ["intense", "euphoric"],
+    "energy_arc": "steady"
+  },
+  "running": {
+    "label": "Running",
+    "description": "Jogging or running outdoors or on a treadmill",
+    "bpm_range": [140, 180],
+    "energy_range": [7, 9],
+    "preferred_genres": ["hip hop", "electronic", "pop", "rock", "indie rock"],
+    "preferred_moods": ["energetic", "intense", "focused"],
+    "excluded_moods": ["laid-back"],
+    "energy_arc": "peak"
+  },
+  "cooking": {
+    "label": "Cooking",
+    "description": "Preparing meals at home, casual kitchen time",
+    "bpm_range": [80, 120],
+    "energy_range": [3, 6],
+    "preferred_genres": ["soul", "r&b", "funk", "indie pop", "jazz", "motown"],
+    "preferred_moods": ["happy", "groovy", "warm"],
+    "excluded_moods": ["intense", "euphoric"],
+    "energy_arc": "steady"
+  },
+  "studying": {
+    "label": "Studying",
+    "description": "Deep focus work, reading, writing, learning",
+    "bpm_range": [60, 100],
+    "energy_range": [1, 4],
+    "preferred_genres": ["lo-fi hip hop", "chillhop", "classical", "ambient", "acoustic"],
+    "preferred_moods": ["focused", "laid-back"],
+    "excluded_moods": ["euphoric", "intense", "energetic"],
+    "energy_arc": "steady"
+  },
+  "morning workout": {
+    "label": "Morning Workout",
+    "description": "Gym session, strength training, HIIT, or cardio",
+    "bpm_range": [120, 175],
+    "energy_range": [7, 9],
+    "preferred_genres": ["hip hop", "electronic", "pop", "rock", "dance"],
+    "preferred_moods": ["energetic", "intense", "euphoric"],
+    "excluded_moods": ["laid-back"],
+    "energy_arc": "build"
+  },
+  "road trip": {
+    "label": "Road Trip",
+    "description": "Long drives, highway cruising, scenic routes",
+    "bpm_range": [85, 130],
+    "energy_range": [3, 7],
+    "preferred_genres": ["classic rock", "indie rock", "country", "americana", "alternative rock"],
+    "preferred_moods": ["happy", "groovy", "warm", "outdoorsy"],
+    "excluded_moods": ["intense"],
+    "energy_arc": "varied"
+  },
+  "dinner party": {
+    "label": "Dinner Party",
+    "description": "Background music for guests, casual social gathering",
+    "bpm_range": [70, 110],
+    "energy_range": [2, 5],
+    "preferred_genres": ["jazz", "soul", "r&b", "indie pop", "acoustic", "bossa nova"],
+    "preferred_moods": ["warm", "laid-back", "happy", "groovy"],
+    "excluded_moods": ["intense", "euphoric", "focused"],
+    "energy_arc": "steady"
+  },
+  "hiking": {
+    "label": "Hiking",
+    "description": "Trail hiking, nature walks, outdoor adventure",
+    "bpm_range": [85, 130],
+    "energy_range": [4, 7],
+    "preferred_genres": ["folk rock", "indie folk", "country", "americana", "classic rock"],
+    "preferred_moods": ["outdoorsy", "energetic", "happy", "groovy", "warm"],
+    "excluded_moods": ["laid-back"],
+    "energy_arc": "build"
+  },
+  "commute": {
+    "label": "Commute",
+    "description": "Daily commute by car, train, or bus",
+    "bpm_range": [85, 130],
+    "energy_range": [3, 6],
+    "preferred_genres": ["indie pop", "alternative rock", "pop", "indie rock"],
+    "preferred_moods": ["groovy", "happy", "focused", "warm"],
+    "excluded_moods": ["intense", "euphoric"],
+    "energy_arc": "steady"
+  },
+  "party": {
+    "label": "Party",
+    "description": "House party, dancing, celebration",
+    "bpm_range": [115, 180],
+    "energy_range": [7, 9],
+    "preferred_genres": ["pop", "hip hop", "electronic", "dance", "funk", "r&b"],
+    "preferred_moods": ["energetic", "euphoric", "groovy", "happy"],
+    "excluded_moods": ["laid-back"],
+    "energy_arc": "peak"
+  }
+}
