@@ -18,6 +18,10 @@ from arcade_audio_curator.database import (
 )
 from arcade_audio_curator.models import Playlist, PlaylistTrack
 from arcade_audio_curator.scoring import rank_songs, score_song
+import os
+
+from dotenv import load_dotenv
+load_dotenv()
 
 app = MCPApp(name="arcade_audio_curator", version="1.0.0", log_level="WARNING")
 
@@ -390,10 +394,7 @@ async def create_spotify_playlist(
     Requires a valid SPOTIFY_ACCESS_TOKEN in the environment or .env file.
     Get a token at: https://developer.spotify.com/console/post-playlists
     """
-    import os
 
-    from dotenv import load_dotenv
-    load_dotenv()
     token = os.environ.get("SPOTIFY_ACCESS_TOKEN", "")
     if not token:
         return {
