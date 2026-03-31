@@ -96,18 +96,12 @@ pytest tests/ -v
 
 ### Set up Spotify (for playlist creation)
 
-1. Go to [developer.spotify.com/console/post-playlists](https://developer.spotify.com/console/post-playlists)
-2. Click **Get Token**
-3. Check `playlist-modify-public` and `playlist-modify-private`
-4. Click **Request Token** and copy it
-5. Add to your `.env` file:
-
+Obtain a Spotify OAuth token with `playlist-modify-public` and `playlist-modify-private` scopes via [Spotify's authorization guide](https://developer.spotify.com/documentation/web-api/concepts/authorization). Add it to your `.env` file:
 ```bash
 SPOTIFY_ACCESS_TOKEN=BQD...your_token_here...
 ```
 
-> **Note:** Tokens expire after 1 hour. Return to the console to get a new one.
-> For a production deployment, this would use Spotify's full OAuth flow via `arcade deploy`.
+> **Note:** Tokens expire after 1 hour. For a production deployment this would use Spotify's full OAuth flow via `arcade deploy`.
 
 ### Test the Spotify connection
 
